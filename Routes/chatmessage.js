@@ -13,5 +13,4 @@ router.get('/all-messages',chatMessageController.getAllGroupMessages)
 
 router.post('/add-file',upload.single('file'),userAuthentication.authenticate,chatMessageController.uploadFile)
 
-
 module.exports=router
