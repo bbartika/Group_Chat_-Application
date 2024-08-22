@@ -1,5 +1,6 @@
 const forgotPasswordForm=document.querySelector("#forgotpasswordform")
- forgotPasswordForm.addEventListener('submit',(e)=>{
+ 
+forgotPasswordForm.addEventListener('submit',(e)=>{
      e.preventDefault()
      const email=document.querySelector('.email').value
      
