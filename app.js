@@ -6,7 +6,6 @@ const path=require('path')
 const sequelize=require('./utils/database')
 
 // import models
-
 const ChatMessage=require('./Models/chatmessage')
 const Group=require('./Models/group')
 const User=require('./Models/user')
